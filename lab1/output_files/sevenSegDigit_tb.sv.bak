@@ -1,0 +1,16 @@
+module sevenSegDigit(output reg [7:0] result);
+
+	reg [3:0] input;
+	reg switch = 1;
+
+sevenSeg digit UUT(
+	.number(input),
+	.switch(switch),
+	.digit(result)
+):
+
+for (integer i = 0; i < 10; i = i + 1) begin
+		#10;
+		input = i;
+		#10;
+	end

@@ -1,0 +1,10 @@
+module clock_divider_tb(input clk);
+
+		reg [19:0] speed_input;
+		reg outclk;
+		reg rst;
+		
+		
+		clock_divider 1hzclock(clk, speed_input, rst, outclk);
+
+endmodule

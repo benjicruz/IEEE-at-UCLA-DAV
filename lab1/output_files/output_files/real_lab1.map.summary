@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Nov 17 18:48:34 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : real_lab1
+Top-level Entity Name : lab_one_top
+Family : MAX 10
+Total logic elements : 1,752
+    Total combinational functions : 1,752
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 58
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

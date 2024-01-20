@@ -1,0 +1,30 @@
+module clock_divider(
+	input clk,
+	input reg [19:0]speed,
+	input rst,
+	output outClk
+);
+
+	local PARAMETER BASE_SPEED = 50000000;
+	local PARAMETER MAX_VALUE = (BASE_SPEED / speed)-1;
+	
+	reg [31:0] counter;
+	reg outClk_d;
+	
+	always(posedge(clk) or posedge(rst)) begin
+		if(rst == 1'b1) begin
+			counter <= 0;
+			outClk_d = 0;
+		end else if(counter < MAX_VALUE / 2)
+			counter = counter + 1;
+			outClk_d = 0;	
+		end else if(counter >= MAX_VALUE /2 AND counter != MAX_VALUE )	
+			counter = counter + 1;
+			outClk_d = 1;
+		end else if(counter == MAX_VALUE)
+			counter = 0;
+		end
+	end
+	assign outClk = outClk_d;
+
+endmodule

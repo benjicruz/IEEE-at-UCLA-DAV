@@ -1,0 +1,97 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Benji/Desktop/DAV/lab1/simulation/modelsim
+T_opt
+!s110 1699914481
+V?Sk@Xg[7n<gM]LgZRX93T3
+Z2 04 14 4 work lab_one_top_tb fast 0
+=1-909c4ac6a8d4-6552a2f0-399-2d0c
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1699914505
+VBDoRSJcPHES[`aDLz0WC71
+04 11 4 work lab_one_top fast 0
+R2
+=1-909c4ac6a8d4-6552a308-2ec-3090
+!s124 OEM10U3 
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1699914703
+V?BUDz@F[6U8GR?PGgl]5N3
+R2
+=1-909c4ac6a8d4-6552a3cf-11f-2114
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt2
+R6
+vlab_one_top
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1699914367
+!i10b 1
+!s100 lh2na31^L4;R:UldF_3RD0
+Ij4:R:RUoc:fJL9TD=ELbm2
+S1
+R1
+w1698203312
+8C:/Users/Benji/Desktop/DAV/lab1/lab_one_top.sv
+FC:/Users/Benji/Desktop/DAV/lab1/lab_one_top.sv
+!i122 0
+L0 1 3
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1699914367.000000
+!s107 C:/Users/Benji/Desktop/DAV/lab1/lab_one_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/Desktop/DAV/lab1|C:/Users/Benji/Desktop/DAV/lab1/lab_one_top.sv|
+!i113 0
+Z10 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work work +incdir+C:/Users/Benji/Desktop/DAV/lab1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vlab_one_top_tb
+R7
+!s110 1699914368
+!i10b 1
+!s100 ?LWYd^fmi0CG>Y>jG4<@C2
+IGTZGGlkjM0mY`0::_oRCh2
+S1
+R1
+w1699913902
+8C:/Users/Benji/Desktop/DAV/lab1/lab_one_top_tb.sv
+FC:/Users/Benji/Desktop/DAV/lab1/lab_one_top_tb.sv
+!i122 1
+L0 3 20
+R8
+R9
+r1
+!s85 0
+31
+!s108 1699914368.000000
+!s107 C:/Users/Benji/Desktop/DAV/lab1/lab_one_top_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/Desktop/DAV/lab1|C:/Users/Benji/Desktop/DAV/lab1/lab_one_top_tb.sv|
+!i113 0
+R10
+R11
+R5
