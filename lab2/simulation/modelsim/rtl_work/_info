@@ -1,7 +1,12 @@
 m255
 K4
 z2
-!s99 nomlopt
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -9,64 +14,75 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Benji/Desktop/DAV/lab2/simulation/modelsim
+Z1 dC:/Users/Benji/Desktop/DAV/lab2/simulation/modelsim
 T_opt
 !s110 1701467342
 VfU6Ol0GdP56HCfz`KMc7M1
-04 16 4 work clock_divider_tb fast 0
+Z2 04 16 4 work clock_divider_tb fast 0
 =1-909c4ac6a8d4-656a54ce-a7-1640
-!s124 OEM10U3 
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z3 !s124 OEM10U3 
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;2021.2;73
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1705796315
+VgKA_M9g]dC475hHL0M]dX1
+R2
+=1-909c4ac6a8d4-65ac62db-1e1-2418
+R3
+R4
+R5
+n@_opt1
+R6
 vclock_divider
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1701467336
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1705796310
 !i10b 1
-!s100 O1F;F]j8EVVg`@[NSRLM81
-IbBzO7@e@J@GbQ[RK?cj^K0
+!s100 Cajan[O:XLYaiG3;;U2^60
+IG5iCfZeCG9:9^U^UJzLiU3
 S1
-R0
-w1701465662
+R1
+w1705796211
 8C:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv
 FC:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv
 !i122 0
-L0 1 36
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 OL;L;2021.2;73
+L0 1 34
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.2;73
 r1
 !s85 0
 31
-!s108 1701467336.000000
+Z11 !s108 1705796310.000000
 !s107 C:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/Desktop/DAV/lab2|C:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv|
 !i113 0
-Z5 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z6 !s92 -sv -work work +incdir+C:/Users/Benji/Desktop/DAV/lab2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -sv -work work +incdir+C:/Users/Benji/Desktop/DAV/lab2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
 vclock_divider_tb
-R2
-!s110 1701467337
+R7
+R8
 !i10b 1
-!s100 `9@=6FXFSH[TDm5g93K2V1
-ICCI`NfOnR?mhHo=FP0f<B3
+!s100 D^GXb5hF39Po3DHC;^RXb0
+Ih2kmAQZdgh@ZbZUm7;gV91
 S1
-R0
-w1701467270
+R1
+w1705796254
 8C:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv
 FC:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv
 !i122 1
 L0 3 26
-R3
-R4
+R9
+R10
 r1
 !s85 0
 31
-!s108 1701467337.000000
+R11
 !s107 C:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/Desktop/DAV/lab2|C:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv|
 !i113 0
+R12
+R13
 R5
-R6
-R1

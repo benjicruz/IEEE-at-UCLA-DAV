@@ -17,7 +17,10 @@
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is Benji@DESKTOP-PCE55JF.
 # vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
 # vmap work rtl_work
 # Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
 # vmap work rtl_work 
@@ -26,37 +29,42 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/Benji/Desktop/DAV/lab2 {C:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:48:56 on Dec 01,2023
+# Start time: 16:18:30 on Jan 20,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Benji/Desktop/DAV/lab2" C:/Users/Benji/Desktop/DAV/lab2/clock_divider.sv 
 # -- Compiling module clock_divider
 # 
 # Top level modules:
 # 	clock_divider
-# End time: 13:48:56 on Dec 01,2023, Elapsed time: 0:00:00
+# End time: 16:18:30 on Jan 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/Benji/Desktop/DAV/lab2 {C:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv}
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 13:48:57 on Dec 01,2023
+# Start time: 16:18:30 on Jan 20,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Benji/Desktop/DAV/lab2" C:/Users/Benji/Desktop/DAV/lab2/clock_divider_tb.sv 
 # -- Compiling module clock_divider_tb
 # 
 # Top level modules:
 # 	clock_divider_tb
-# End time: 13:48:57 on Dec 01,2023, Elapsed time: 0:00:00
+# End time: 16:18:30 on Jan 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim -voptargs=+acc work.clock_divider_tb
 # vsim -voptargs="+acc" work.clock_divider_tb 
-# Start time: 13:49:01 on Dec 01,2023
+# Start time: 16:18:34 on Jan 20,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.clock_divider_tb(fast)
 # Loading work.clock_divider(fast)
-add wave -position insertpoint  \
-sim:/clock_divider_tb/outclk \
-sim:/clock_divider_tb/outclk2 \
-sim:/clock_divider_tb/clock \
-sim:/clock_divider_tb/speed_input \
-sim:/clock_divider_tb/speed_input2 \
-sim:/clock_divider_tb/rst
+add wave -position insertpoint sim:/clock_divider_tb/testclock/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Benji  Hostname: DESKTOP-PCE55JF  ProcessID: 5696
+#           Attempting to use alternate WLF file "./wlft8yy9ge".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8yy9ge
+add wave -position insertpoint sim:/clock_divider_tb/testclock2/*
 run
+run
+run
+run
+# End time: 16:19:20 on Jan 20,2024, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
