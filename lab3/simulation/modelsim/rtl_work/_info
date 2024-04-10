@@ -1,0 +1,84 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/simulation/modelsim
+T_opt
+!s110 1712455362
+V^m`4LO>Pz1INf7fz9[o:[3
+04 17 4 work complex_mult_func fast 0
+=1-d8bbc14490a9-6611fec2-104-3e30
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1712455369
+VGn:YjS3?T7@WnSd7J:Qn70
+04 20 4 work complex_mult_func_tb fast 0
+=1-d8bbc14490a9-6611fec9-f4-4478
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vcomplex_mult_func
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1712455360
+!i10b 1
+!s100 2PSoJYM4<:ZP12IcS9K=]2
+I@8@kk[<OVa]VO;D4a1T@D1
+S1
+R1
+w1712450990
+8C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func.sv
+FC:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func.sv
+!i122 0
+L0 1 24
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z8 !s108 1712455360.000000
+!s107 C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3|C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func.sv|
+!i113 0
+Z9 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -sv -work work {+incdir+C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcomplex_mult_func_tb
+R4
+R5
+!i10b 1
+!s100 >Oa;hOIIVGSd9o=7;VFW_0
+I<Z?k_n7XfJMSMYmLh]j3k1
+S1
+R1
+w1712455055
+8C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func_tb.sv
+FC:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func_tb.sv
+!i122 1
+L0 1 13
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3|C:/Users/Benji/BENJI SCHOOL/UCLA UNDERGRAD/DAV/IEEE-at-UCLA-DAV/lab3/complex_mult_func_tb.sv|
+!i113 0
+R9
+R10
+R2

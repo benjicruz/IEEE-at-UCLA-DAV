@@ -1,6 +1,6 @@
 module clock_divider #(BASE_SPEED = 50000000)(
 	input clk,
-	input reg [19:0]speed,
+	input reg [19:0] speed,
 	input rst,
 	output reg outClk
 );
@@ -21,7 +21,6 @@ module clock_divider #(BASE_SPEED = 50000000)(
 			outClk_d = 1;
 			counter_d = counter + 1;
 		end else begin
-		//if(counter == ((BASE_SPEED)/speed) - 1) begin
 			counter_d = 0;
 			outClk_d = 1;
 		end  
